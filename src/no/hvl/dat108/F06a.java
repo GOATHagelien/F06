@@ -21,7 +21,7 @@ public class F06a {
 
 
     private static <T extends Comparable<T>>void sorter (List<T> liste) {
-        private static <T extends Comparable<T>> void sorter(List<T> liste, Sammenligner<T> s){
+        private static <T> void sorter(List<T> liste, Sammenligner<T> s){
 
             for (int i = 0; i < liste.size(); i++) {
                 for (int j = 1; j < liste.size(); j++) {
